@@ -47,6 +47,15 @@ The basic username is root,password is toor
 
 enjoy it!
 
+**********
+Online Group
+**********
+- QQ群: 260816512
+
+**********
+Getting Help
+**********
+you can email me to wcc526@gmail.com or QQ:949409306
 
 **********
 What will be the next features?
