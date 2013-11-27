@@ -5,7 +5,6 @@ python:
 env:
     - DJANGO=1.6.0
 install: 
-    - pip install . --use-mirros
     - pip install -r requirements.txt --use-mirros
 script: 
     - python manage.py test
