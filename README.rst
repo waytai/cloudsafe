@@ -55,7 +55,9 @@ Online Group
 **********
 Getting Help
 **********
-you can email me to wcc526@gmail.com or QQ:949409306
+1.IRC channel, #cloudsafe, on irc.freenode.net 
+2.email to wcc526@gmail
+3.QQ:949409306
 
 **********
 What will be the next features?
