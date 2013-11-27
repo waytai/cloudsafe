@@ -45,3 +45,7 @@ I will add more functions,like:
 -more powerful report for the statistics
 -now the basic language is chinese,I will support english,spanlish
 -and so on
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wcc526/cloudsafe/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
