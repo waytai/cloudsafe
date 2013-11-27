@@ -1,5 +1,4 @@
-# Cloud Safe 
-[![Build Status](https://travis-ci.org/wcc526/cloudsafe.png)](https://travis-ci.org/wcc526/cloudsafe) [![Coverage Status](https://coveralls.io/repos/wcc526/cloudsafe/badge.png)](https://coveralls.io/r/wcc526/cloudsafe)
+# Cloud Safe [![Build Status](https://travis-ci.org/wcc526/cloudsafe.png)](https://travis-ci.org/wcc526/cloudsafe) [![Coverage Status](https://coveralls.io/repos/wcc526/cloudsafe/badge.png)](https://coveralls.io/r/wcc526/cloudsafe)
 ==================
 
 基于golismero的云安全扫描平台
