@@ -1,5 +1,10 @@
-# Cloud Safe [![Build Status](https://travis-ci.org/wcc526/cloudsafe.png)](https://travis-ci.org/wcc526/cloudsafe) [![Coverage Status](https://coveralls.io/repos/wcc526/cloudsafe/badge.png)](https://coveralls.io/r/wcc526/cloudsafe)
-==================
+############
+Cloud Safe 
+############
+.. image:: https://api.travis-ci.org/wcc526/cloudsafe.png?branch=master
+    :target: http://travis-ci.org/wcc526/cloudsafe
+.. image:: https://coveralls.io/repos/wcc526/cloudsafe/badge.png?branch=master
+    :target: https://coveralls.io/r/wcc526/cloudsafe
 
 基于golismero的云安全扫描平台
 this is the web ui for the golismero,bug scan
@@ -9,12 +14,13 @@ this web ui is write by django,only need python environment
 but the scan tools is basic golismero,make sure you are qualified ,like install
 nmap,sqlmap and so on,the os system is kali or backtrack is better!
 
-What's it look like?
-===================
+**********
+Sceenshots
+**********
 
-The basic login ui like:
+*The basic login ui like:
 ![image](https://github.com/wcc526/csenv/raw/master/screenshots/login.png)
-The results like:
+*The results like:
 ![image](https://github.com/wcc526/csenv/raw/master/screenshots/results.png)
 The admin like:
 ![image](https://github.com/wcc526/csenv/raw/master/screenshots/admin.png)
@@ -49,3 +55,6 @@ I will add more functions,like:
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wcc526/cloudsafe/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+.. image:: https://d2weczhvl823v0.cloudfront.net/wcc526/cloudsafe/trend.png
+   :alt: Bitdeli badge
+      :target: https://bitdeli.com/free
