@@ -1,0 +1,157 @@
+{% extends "webui/base.html" %}
+{% block header %}
+<li class="dropdown active">
+    <a href="/">
+        首页
+    </a>
+</li>
+<li class="dropdown">
+    <a href="/faq">
+        帮助中心
+    </a>
+</li>
+<li class="dropdown">
+    <a href="/about">
+        关于我们
+    </a>
+</li>                         
+{% endblock %}
+{% block content %}
+    <!-- BEGIN PAGE CONTAINER -->  
+    <div class="page-container">
+        <!-- BEGIN REVOLUTION SLIDER -->    
+        <div class="fullwidthbanner-container slider-main">
+            <div class="fullwidthabnner">
+                <ul id="revolutionul" style="display:none;">            
+                        <!-- THE FIRST SLIDE -->
+                        <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="1500" data-thumb="/static/webui/img/sliders/revolution/thumbs/thumb2.jpg">
+                            <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                            <img src="/static/webui/img/bg1.jpg" alt="">
+                            
+                            <div class="caption lft slide_title slide_item_left"
+                                 data-x="0"
+                                 data-y="105"
+                                 data-speed="1"
+                                 data-start="0"
+                                 data-easing="easeOutExpo">
+                                 高能所统一认证系统
+                            </div>
+                            <div class="caption lft slide_subtitle slide_item_left"
+                                 data-x="0"
+                                 data-y="180"
+                                 data-speed="200"
+                                 data-start="0"
+                                 data-easing="easeOutExpo">
+                                 云安全平台已接入统一认证系统
+                            </div>
+                            <div class="caption lft slide_desc slide_item_left"
+                                 data-x="0"
+                                 data-y="220"
+                                 data-speed="400"
+                                 data-start="0"
+                                 data-easing="easeOutExpo">
+                                 高能所统一认证系统是基于高能所的统一账号系统</br>
+                                 可以用于登录各类科研应用服务
+                            </div>
+                            <a class="caption lft btn green slide_btn slide_item_left" href="https://login.ihep.ac.cn/oauth2/authorize?response_type=code&redirect_uri=http%3A%2F%2Fcloudsafe.ihep.ac.cn%2Fcallback&client_id=19562&theme=full"
+                                 data-x="0"
+                                 data-y="290"
+                                 data-speed="8"
+                                 data-start="0"
+                                 data-easing="easeOutExpo">
+                                 现在使用统一认证系统登录
+                            </a>                        
+                            <div class="caption lfb"
+                                 data-x="640" 
+                                 data-y="105" 
+                                 data-speed="100" 
+                                 data-start="0" 
+                                 data-easing="easeOutExpo"  >
+                                 <img src="/static/webui/img/sso.png" alt="Image 1">
+                            </div>
+                        </li>
+
+                        <!-- THE SECOND SLIDE -->
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="3000" data-thumb="/static/webui/img/sliders/revolution/thumbs/thumb2.jpg">                        
+                            <img src="/static/webui/img/bg2.jpg" alt="">
+                            <div class="caption lfl slide_title slide_item_left"
+                                 data-x="0"
+                                 data-y="125"
+                                 data-speed="4"
+                                 data-start="35"
+                                 data-easing="easeOutExpo">
+                                 云安全服务平台
+                            </div>
+                            <div class="caption lfl slide_subtitle slide_item_left"
+                                 data-x="0"
+                                 data-y="200"
+                                 data-speed="200"
+                                 data-start="40"
+                                 data-easing="easeOutExpo">
+                                 提供7x24的可靠服务
+                            </div>
+                            <div class="caption lfl slide_desc slide_item_left"
+                                 data-x="0"
+                                 data-y="245"
+                                 data-speed="400"
+                                 data-start="45"
+                                 data-easing="easeOutExpo">
+                                 你可以随时随地集中地管理你的安全</br>
+                                 使用简单易于维护 
+                            </div>                        
+                            <div class="caption lfr slide_item_right" 
+                                 data-x="635" 
+                                 data-y="105" 
+                                 data-speed="100" 
+                                 data-start="15" 
+                                 data-easing="easeOutBack">
+                                 <img src="/static/webui/img/cloudsafe.png" alt="Image 1">
+                            </div>
+                        </li>             
+                        
+                </ul>
+                <div class="tp-bannertimer tp-bottom"></div>
+            </div>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+    	
+        <!-- BEGIN CONTAINER -->   
+        <div class="container">
+            <!-- BEGIN SERVICE BOX -->   
+            <div class="row service-box">
+                <div class="col-md-4 col-sm-4">
+                    <div class="service-box-heading">
+                        <em><i class="icon-location-arrow blue"></i></em>
+                        <span>使用和管理简单</span>
+                    </div>
+                    <p>随时启用随时防护</br>
+                       可随时随地登陆基于Web的管理控制台进行集中管理</br>
+                       自动维护和更新</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="service-box-heading">
+                        <em><i class="icon-ok red"></i></em>
+                        <span>最大程度的保护</span>
+                    </div>
+                    <p> 
+                        反恶意软件和保护抵御网络钓鱼,恶意活动内容和其它威胁</br>
+                        自动透明升级
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="service-box-heading">
+                        <em><i class="icon-resize-small green"></i></em>
+                        <span>最小的花费. 资源友好</span>
+                    </div>
+                    <p>
+                        基于云安全的威胁检测和分类,减少系统资源消耗
+                        全面协助，全年24x7支持
+                    </p>
+                </div>
+            </div>
+            <!-- END SERVICE BOX -->  
+        </div>
+        <!-- END CONTAINER -->
+    </div>
+    <!-- END PAGE CONTAINER -->
+{% endblock %}
