@@ -5,6 +5,8 @@ Cloud Safe
     :target: http://travis-ci.org/wcc526/cloudsafe
 .. image:: https://coveralls.io/repos/wcc526/cloudsafe/badge.png?branch=master
     :target: https://coveralls.io/r/wcc526/cloudsafe
+.. image:: https://drone.io/github.com/wcc526/cloudsafe/status.png 
+    :target: https://drone.io/github.com/wcc526/cloudsafe/latest
 
 基于golismero的云安全扫描平台
 this is the web ui for the golismero,bug scan
