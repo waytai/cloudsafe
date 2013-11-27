@@ -1,5 +1,11 @@
-What's cloudsafe?
+Cloud Safe |Build Status| |Build Status2|
 ==================
+
+.. |Build Status| image:: https://travis-ci.org/wcc526/cloudsafe.png?branch=master 
+   :target: https://travis-ci.org/wcc526/cloudsafe
+.. |Build Status2| image:: https://drone.io/github.com/wcc526/cloudsafe/status.png
+   :target: https://drone.io/github.com/wcc526/cloudsafe/latest
+
 基于golismero的云安全扫描平台
 this is the web ui for the golismero,bug scan
 you can see it from https://github.com/golismero/golismero
