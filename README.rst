@@ -7,6 +7,10 @@ Cloud Safe
     :target: https://coveralls.io/r/wcc526/cloudsafe
 .. image:: https://drone.io/github.com/wcc526/cloudsafe/status.png 
     :target: https://drone.io/github.com/wcc526/cloudsafe/latest
+.. image:: https://pypip.in/v/cloudsafe/badge.png
+    :target: https://crate.io/packages/cloudsafe/
+.. image:: https://pypip.in/d/cloudsafe/badge.png
+    :target: https://crate.io/packages/cloudsafe/
 
 基于golismero的云安全扫描平台
 this is the web ui for the golismero,bug scan
