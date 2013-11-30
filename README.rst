@@ -59,9 +59,9 @@ Online Group
 **********
 Getting Help
 **********
-1.IRC channel, #cloudsafe, on irc.freenode.net 
-2.email to wcc526@gmail
-3.QQ:949409306
+* 1.IRC channel, #cloudsafe, on irc.freenode.net 
+* 2.email to wcc526@gmail
+* 3.QQ:949409306
 
 **********
 What will be the next features?
@@ -70,9 +70,14 @@ I will add more functions,like:
 
 * more powerful report for the statistics
 * now the basic language is chinese,I will support english,spanlish
-* and so on
+* distributed
 
-
+*********
+Thanks to
+*********
+* @evan-css
+* @Mario Vilas
+* @cr0hn
 
 .. image:: https://d2weczhvl823v0.cloudfront.net/wcc526/cloudsafe/trend.png
    :alt: Bitdeli badge
