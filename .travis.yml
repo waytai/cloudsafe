@@ -9,8 +9,10 @@ env:
     - DJANGO=1.6.0
 install: 
     - pip install -r requirements.txt --use-mirrors
+    - pip install coveralls
 script: 
     - python manage.py test
+    - coverage run --source=cloudsafe setup test
 notifications:
     recipients:
         - wengcc@ihep.ac.cn
@@ -21,3 +23,5 @@ notifications:
             - "irc.freenode.org#cloudsafe"
         on_success: change
         on_failure: always
+after_success:
+    coveralls
