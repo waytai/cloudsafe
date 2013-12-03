@@ -74,10 +74,8 @@ I will add more functions,like:
 *********
 Thanks to
 *********
-* my teachers: `@高能老黄牛 <http://weibo.com/u/2406562641>`_ `@crist齐 <http://weibo.com/u/1402163021>`_
-* `@evan-css <http://weibo.com/evancss>`_
-* `@Mario Vilas <https://github.com/MarioVilas>`_
-* `@cr0hn <https://github.com/cr0hn>`_
+* my teachers `@高能老黄牛 <http://weibo.com/u/2406562641>`_ `@crist齐 <http://weibo.com/u/1402163021>`_
+* my friends `@evan-css <http://weibo.com/evancss>`_ `@Mario Vilas <https://github.com/MarioVilas>`_ `@cr0hn <https://github.com/cr0hn>`_
 
 .. image:: https://d2weczhvl823v0.cloudfront.net/wcc526/cloudsafe/trend.png
    :alt: Bitdeli badge
