@@ -12,9 +12,8 @@ Cloud Safe
 .. image:: https://pypip.in/d/cloudsafe/badge.png
     :target: https://crate.io/packages/cloudsafe/
 
-基于golismero的云安全扫描平台
-this is the web ui for the golismero,bug scan
-you can see it from https://github.com/golismero/golismero
+CloudSafe 云安全扫描平台
+which use the 'golismero <https://github.com/golismero/golismero>'_for the bug scan
 
 this web ui is write by django,only need python environment
 but the scan tools is basic golismero,make sure you are qualified ,like install
@@ -75,9 +74,10 @@ I will add more functions,like:
 *********
 Thanks to
 *********
-* @evan-css
-* @Mario Vilas
-* @cr0hn
+* my teachers: `@高能老黄牛 <http://weibo.com/u/2406562641>`_ '@crist齐 <http://weibo.com/u/1402163021>'_
+* '@evan-css <http://weibo.com/evancss>'_
+* '@Mario Vilas <https://github.com/MarioVilas>'_
+* '@cr0hn <https://github.com/cr0hn>'_
 
 .. image:: https://d2weczhvl823v0.cloudfront.net/wcc526/cloudsafe/trend.png
    :alt: Bitdeli badge
