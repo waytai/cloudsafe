@@ -13,7 +13,6 @@ install:
 script: 
     - python manage.py test
     - coverage run --source=cloudsafe setup.py test
-    - nosetests --with-coverage --cover-erase --cover-package=cloudsafe
 notifications:
     recipients:
         - wengcc@ihep.ac.cn
