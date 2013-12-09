@@ -36,11 +36,8 @@ Sceenshots
 Installation
 ------------
 
-git clone https://github.com/wcc526/csenv.git
-
-* run . csenv/bin/activate
-* cd csenv/cloudsafe
-* python manage.py runserver 0.0.0.0:80
+$ git clone https://github.com/wcc526/cloudsafe.git
+$ python manage.py runserver 0.0.0.0:80
 
 The basic username is root,password is toor
 
