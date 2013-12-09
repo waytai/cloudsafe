@@ -12,12 +12,21 @@ Cloud Safe
 .. image:: https://pypip.in/d/cloudsafe/badge.png
     :target: https://crate.io/packages/cloudsafe/
 
+Overview
+--------
 CloudSafe 云安全扫描平台
 which use the `golismero <https://github.com/golismero/golismero>`_ for the bug scan
 
 this web ui is write by django,only need python environment
 but the scan tools is basic golismero,make sure you are qualified ,like install
 nmap,sqlmap and so on,the os system is kali or backtrack is better!
+
+Requirements
+--------
+- os system Backtrack5 R3 or kali,kali is better
+- python 2.6,2.7
+- django (1.5+)
+
 
 Sceenshots
 --------
