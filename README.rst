@@ -48,7 +48,7 @@ Installation
 --------
 
 - 1.download:
-from pypi_::
+from pypi::
 
      $ pip install cloudsafe
 
@@ -56,7 +56,7 @@ or::
 
      $ easy_install cloudsafe
 
-or clone from github_::
+or clone from github::
 
     $ git clone https://github.com/wcc526/cloudsafe.git
 
