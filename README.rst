@@ -38,6 +38,7 @@ Sceenshots
 Installation
 --------
 
+- download 
 from pypi_::
 
      $ pip install cloudsafe
@@ -50,7 +51,7 @@ or clone from github_::
 
     $ git clone https://github.com/wcc526/cloudsafe.git
 
-and run::
+- run::
 
     $ python manage.py runserver 0.0.0.0:80
 
