@@ -23,7 +23,7 @@ nmap,sqlmap and so on,the os system is kali or backtrack is better!
 
 Requirements
 --------
-- os system: Backtrack5 R3 or kali,kali is better
+- os system: Backtrack5 R3 or kali,kali is better,because need the tools on this system
 - python 2.6 or 2.7
 - django (1.5+)
 
