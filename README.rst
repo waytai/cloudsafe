@@ -23,8 +23,8 @@ nmap,sqlmap and so on,the os system is kali or backtrack is better!
 
 Requirements
 --------
-- os system Backtrack5 R3 or kali,kali is better
-- python 2.6,2.7
+- os system: Backtrack5 R3 or kali,kali is better
+- python 2.6 or 2.7
 - django (1.5+)
 
 
@@ -47,7 +47,7 @@ Sceenshots
 Installation
 --------
 
-- download 
+- 1.download:
 from pypi_::
 
      $ pip install cloudsafe
@@ -60,7 +60,7 @@ or clone from github_::
 
     $ git clone https://github.com/wcc526/cloudsafe.git
 
-- run::
+- 2.you can run with this steps:: 
 
     $ python manage.py runserver 0.0.0.0:80
 
@@ -77,8 +77,8 @@ You can find more in the documentation at `http://cloudsafe.readthedocs.org/ <ht
 Contact
 --------
 
-* 1.IRC channel: #cloudsafe, on irc.freenode.net 
-* 2.email to wcc526@gmail.com or 949409306@qq.com
+* 1.IRC channel: ``#cloudsafe``, on irc.freenode.net 
+* 2.contact me: wcc526@gmail.com or 949409306@qq.com
 * 4.QQ群:260816512
 
 What will be the next features?
