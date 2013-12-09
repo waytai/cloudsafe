@@ -35,13 +35,21 @@ Sceenshots
 
 Installation
 ------------
+
 from pypi_::
+
      $ pip install cloudsafe
+
 or::
+
      $ easy_install cloudsafe
+
 or clone from github_::
+
     $ git clone https://github.com/wcc526/cloudsafe.git
+
 and run::
+
     $ python manage.py runserver 0.0.0.0:80
 
 The basic username is root,password is toor
