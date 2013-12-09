@@ -50,6 +50,8 @@ The basic username is root,password is toor
 
 enjoy it!
 
+You can find more in the documentation at `http://cloudsafe.readthedocs.org/ <http://cloudsafe.readthedocs.org/>`_
+
 **********
 Online Group
 **********
