@@ -44,6 +44,11 @@ Sceenshots
 * The scan queue like:
 .. image:: https://github.com/wcc526/csenv/raw/master/docs/img/queue.png
 
+Demo
+--------
+There's a demo at http://cloudsafe.ihep.ac.cn, Note: it only visit from the ihep intranet now!
+
+
 Installation
 --------
 
