@@ -45,19 +45,118 @@
             
   <div class="section" id="welcome-to-cloudsafe-s-documentation">
 <h1>Welcome to cloudsafe&#8217;s documentation!<a class="headerlink" href="#welcome-to-cloudsafe-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>Contents:</p>
+<p>cloudsafe is a bug scan platform</p>
 <div class="toctree-wrapper compound">
 <ul class="simple">
 </ul>
 </div>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="cloud-safe">
+<h1>Cloud Safe<a class="headerlink" href="#cloud-safe" title="Permalink to this headline">¶</a></h1>
+<a class="reference external image-reference" href="http://travis-ci.org/wcc526/cloudsafe"><img alt="https://api.travis-ci.org/wcc526/cloudsafe.png?branch=master" src="https://api.travis-ci.org/wcc526/cloudsafe.png?branch=master" /></a>
+<a class="reference external image-reference" href="https://coveralls.io/r/wcc526/cloudsafe"><img alt="https://coveralls.io/repos/wcc526/cloudsafe/badge.png?branch=master" src="https://coveralls.io/repos/wcc526/cloudsafe/badge.png?branch=master" /></a>
+<a class="reference external image-reference" href="https://drone.io/github.com/wcc526/cloudsafe/latest"><img alt="https://drone.io/github.com/wcc526/cloudsafe/status.png" src="https://drone.io/github.com/wcc526/cloudsafe/status.png" /></a>
+<a class="reference external image-reference" href="https://crate.io/packages/cloudsafe/"><img alt="https://pypip.in/v/cloudsafe/badge.png" src="https://pypip.in/v/cloudsafe/badge.png" /></a>
+<a class="reference external image-reference" href="https://crate.io/packages/cloudsafe/"><img alt="https://pypip.in/d/cloudsafe/badge.png" src="https://pypip.in/d/cloudsafe/badge.png" /></a>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>CloudSafe 云安全扫描平台
+which use the <a class="reference external" href="https://github.com/golismero/golismero">golismero</a> for the bug scan</p>
+<p>this web ui is write by django,only need python environment
+but the scan tools is basic golismero,make sure you are qualified ,like install
+nmap,sqlmap and so on,the os system is kali or backtrack is better!</p>
+</div>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
+<li>os system: Backtrack5 R3 or kali,kali is better,because need the tools on this system</li>
+<li>python 2.6 or 2.7</li>
+<li>django (1.5+)</li>
 </ul>
+</div>
+<div class="section" id="sceenshots">
+<h2>Sceenshots<a class="headerlink" href="#sceenshots" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>The basic login ui like:</li>
+</ul>
+<img alt="https://github.com/wcc526/csenv/raw/master/docs/img/login.png" src="https://github.com/wcc526/csenv/raw/master/docs/img/login.png" />
+<ul class="simple">
+<li>The results like:</li>
+</ul>
+<img alt="https://github.com/wcc526/csenv/raw/master/docs/img/results.png" src="https://github.com/wcc526/csenv/raw/master/docs/img/results.png" />
+<ul class="simple">
+<li>The admin like:</li>
+</ul>
+<img alt="https://github.com/wcc526/csenv/raw/master/docs/img/admin.png" src="https://github.com/wcc526/csenv/raw/master/docs/img/admin.png" />
+<ul class="simple">
+<li>The report1 like:</li>
+</ul>
+<img alt="https://github.com/wcc526/csenv/raw/master/docs/img/report1.png" src="https://github.com/wcc526/csenv/raw/master/docs/img/report1.png" />
+<ul class="simple">
+<li>The report2 like:</li>
+</ul>
+<img alt="https://github.com/wcc526/csenv/raw/master/docs/img/report2.png" src="https://github.com/wcc526/csenv/raw/master/docs/img/report2.png" />
+<ul class="simple">
+<li>The scan queue like:</li>
+</ul>
+<img alt="https://github.com/wcc526/csenv/raw/master/docs/img/queue.png" src="https://github.com/wcc526/csenv/raw/master/docs/img/queue.png" />
+</div>
+<div class="section" id="demo">
+<h2>Demo<a class="headerlink" href="#demo" title="Permalink to this headline">¶</a></h2>
+<p>There&#8217;s a demo at <a class="reference external" href="http://cloudsafe.ihep.ac.cn">http://cloudsafe.ihep.ac.cn</a>, Note: it only visit from the ihep intranet now!</p>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>1.download:</li>
+</ul>
+<p>from pypi:</p>
+<div class="highlight-python"><pre>$ pip install cloudsafe</pre>
+</div>
+<p>or:</p>
+<div class="highlight-python"><pre>$ easy_install cloudsafe</pre>
+</div>
+<p>or clone from github:</p>
+<div class="highlight-python"><pre>$ git clone https://github.com/wcc526/cloudsafe.git</pre>
+</div>
+<ul>
+<li><p class="first">2.you can run with this steps:</p>
+<div class="highlight-python"><pre>$ python manage.py runserver 0.0.0.0:80</pre>
+</div>
+</li>
+</ul>
+<p>The basic username is root,password is toor</p>
+<p>enjoy it!</p>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>You can find more in the documentation at <a class="reference external" href="http://cloudsafe.readthedocs.org/">http://cloudsafe.readthedocs.org/</a></p>
+</div>
+<div class="section" id="contact">
+<h2>Contact<a class="headerlink" href="#contact" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>1.IRC channel: <tt class="docutils literal"><span class="pre">#cloudsafe</span></tt>, on irc.freenode.net</li>
+<li>2.contact me: <a class="reference external" href="mailto:wcc526&#37;&#52;&#48;gmail&#46;com">wcc526<span>&#64;</span>gmail<span>&#46;</span>com</a> or <a class="reference external" href="mailto:949409306&#37;&#52;&#48;qq&#46;com">949409306<span>&#64;</span>qq<span>&#46;</span>com</a></li>
+<li>4.QQ群:260816512</li>
+</ul>
+</div>
+<div class="section" id="what-will-be-the-next-features">
+<h2>What will be the next features?<a class="headerlink" href="#what-will-be-the-next-features" title="Permalink to this headline">¶</a></h2>
+<p>I will add more functions,like:</p>
+<ul class="simple">
+<li>more powerful report for the statistics</li>
+<li>now the basic language is chinese,I will support english,spanlish</li>
+<li>distributed</li>
+</ul>
+</div>
+<div class="section" id="thanks-to">
+<h2>Thanks to<a class="headerlink" href="#thanks-to" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>my teachers <a class="reference external" href="http://weibo.com/u/2406562641">&#64;高能老黄牛</a> <a class="reference external" href="http://weibo.com/u/1402163021">&#64;crist齐</a></li>
+<li>my friends <a class="reference external" href="http://weibo.com/evancss">&#64;evan-css</a> <a class="reference external" href="https://github.com/MarioVilas">&#64;Mario Vilas</a> <a class="reference external" href="https://github.com/cr0hn">&#64;cr0hn</a></li>
+</ul>
+<img alt="Bitdeli badge :target: https://bitdeli.com/free" src="https://d2weczhvl823v0.cloudfront.net/wcc526/cloudsafe/trend.png" />
+</div>
 </div>
 
 
@@ -71,7 +170,18 @@
 <li><a class="reference internal" href="#">Welcome to cloudsafe&#8217;s documentation!</a><ul>
 </ul>
 </li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#cloud-safe">Cloud Safe</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#sceenshots">Sceenshots</a></li>
+<li><a class="reference internal" href="#demo">Demo</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
+<li><a class="reference internal" href="#contact">Contact</a></li>
+<li><a class="reference internal" href="#what-will-be-the-next-features">What will be the next features?</a></li>
+<li><a class="reference internal" href="#thanks-to">Thanks to</a></li>
+</ul>
+</li>
 </ul>
 
   <h3>This Page</h3>
