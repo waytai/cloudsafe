@@ -11,7 +11,10 @@ cloudsafe is a bug scan platform
 .. toctree::
    :maxdepth: 1 
 
-    tutorial
+   tutorial
+
+.. toctree::
+   :maxdepth: 2
 
 Cloud Safe 
 ==================
