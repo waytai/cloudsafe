@@ -3,10 +3,6 @@
 0.0.1 release notes 
 ================
 
-
-Cloud Safe 
-==================
-
 .. image:: https://api.travis-ci.org/wcc526/cloudsafe.png?branch=master
     :target: http://travis-ci.org/wcc526/cloudsafe
 .. image:: https://coveralls.io/repos/wcc526/cloudsafe/badge.png?branch=master
