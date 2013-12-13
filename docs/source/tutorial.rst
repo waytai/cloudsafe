@@ -8,7 +8,7 @@
 
 Nessus
 ````````````````
-  Nessus国外
+  Nessus 号称是"世界上最流行的漏洞扫描程序,全世界超过75,000个组织在使用它".尽管这个扫描程序可以免费下载得到,但是要从Tenable Network Security更新到所有最新的威胁信息,每年的直接订购费用是$1,200.Linux, FreeBSD, Solaris, Mac OS X和Windows下都可以使用 Nessus.
 
 OpenVas
 ````````````````
