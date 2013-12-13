@@ -2,6 +2,7 @@
 
 .. _Nessus: http://www.tenable.com/products/nessus/
 .. _OpenVAS: http://www.openvas.org/
+.. _Tianjing: http://www.venustech.com.cn/SafeProductInfo/10/32.Html 
 
 主流漏洞扫描工具横向评测
 ================
@@ -16,6 +17,10 @@ Nessus_
 OpenVAS_
 ````````````````
   OpenVAS_ 是 Nessus_ 的免费开源的分支 ,它是一个包含着相关工具的网络扫描器。其核心部件是一个服务器，包括一套网络漏洞测试程序，可以检测远程系统和应用程序中的安全问题
+
+Tianjing_
+````````````````
+  Tianjing_ 是启明星辰,价格在 `79万左右 <http://detail.zol.com.cn/144/143969/price.shtml>`_  
 
 小结
 ````````````````
