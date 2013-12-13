@@ -10,7 +10,8 @@ Welcome to cloudsafe's documentation!
 cloudsafe is a bug scan platform
 
 .. toctree::
-   :maxdepth: 1 
+   :maxdepth: 2 
+   :numbered:
 
    tutorial
 
