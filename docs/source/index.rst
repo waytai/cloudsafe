@@ -20,6 +20,8 @@ cloudsafe is a bug scan platform
 
 .. toctree::
    :maxdepth: 2
+   
+   upgrade/0.0.1 
 
 Cloud Safe 
 ==================
@@ -127,3 +129,10 @@ Thanks to
 .. image:: https://d2weczhvl823v0.cloudfront.net/wcc526/cloudsafe/trend.png
    :alt: Bitdeli badge
       :target: https://bitdeli.com/free
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
