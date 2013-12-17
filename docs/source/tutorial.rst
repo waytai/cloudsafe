@@ -76,6 +76,8 @@ CloudSafe_
    nmap
    superscan
    nessus
+   webinspect
+   appscan
    GFI LANguard Network Security Scanner
    Nikto
    Wikto
@@ -83,7 +85,57 @@ CloudSafe_
    Acunetix Web Vulnerability Scanner(commercial)
    Scuba by Imperva Database Vulnerability Scanner
    Shadow Database Scanner
+   ISS
 
+   带宽占用率 20-80KB/S
+   检测率高于95%,漏报误报率低于5%
+   对目标主机,网络资源占用低于3%
+
+    HTTP 1.0和1.1标准的WEB应用系统
+    Web 2.0/Ajax 应用
+    静态及动态页面
+    Web Services应用
+    Web底层支撑系统
+    认证方式（Cookie、NTLM等基本认证方式）
+    HTTPS的WEB应用系统
+    SQL注入检测
+    跨站脚本检测
+    网页挂马检测
+    网马检测
+    表单类型检测
+    Cookie安全问题检测
+    CGI 漏洞检测
+    GOOGLE-HACK检测
+    伪造跨站点请求
+    无效链接发现
+    敏感文件检测
+    Web Services误配置检测
+    智能爬虫技术
+    后台数据库识别
+    WASC漏洞分类标准
+    “一键式”自动扫描
+    网站结构立体呈现
+    定时、周期扫描
+    多线程、多任务并发扫描
+    数据分析及报表呈现
+    漏洞危险级别分布图
+    操作系统扫描统计列表(XP,Unix,未知系统,Unix)
+    漏洞排名情况(系统中用户)
+    每个用户的风险分值(安全状态,比较安全，中度危险，极度危险)
+    系统状态(数据库大小,CPU使用率,内存使用率) 产品版本,连续运行时间,漏洞库版本,在线任务数
+    扫描进度,即时信息
+    管理员界面 主机列表(高危主机,中危主机，低危主机，安全主机)
+    漏洞列表,漏洞名称,漏洞风险分布,漏洞数量 高危险,中危险,低危险,信息
+    高危漏洞的主机分布
+    Top10高危漏洞
+    报表中心 基本信息:任务耗时,概要信息,详细信息,趋势报告
+    在线主机数量
+    资产管理,IP范围,风险评估分值
+    操作系统对应漏洞风险分析,高风险,中风险,低风险
+    计划任务风险漏洞趋势图
+    任务优先级
+    功能区加图标
+    开放接口对外提供服务
 
 
 小结
@@ -91,6 +143,12 @@ CloudSafe_
 
 评测:用户界面
 ----------------
+
+Tianjing_
+````````````````
+.. image:: https://github.com/wcc526/csenv/raw/master/docs/img/tianjing/ui.png
+.. image:: https://github.com/wcc526/csenv/raw/master/docs/img/tianjing/report.png
+.. image:: https://github.com/wcc526/csenv/raw/master/docs/img/tianjing/asset.png
 
 小结
 ````````````````
@@ -112,12 +170,23 @@ TSC-71528
 检测漏洞数：大于6000
 分布式部署中可以向上级服务器上传扫描结果，也可以接收下级上传的扫描结果
 
+Tianjing_
+````````````````
+单任务最大并发ip数100
+单次最大ip数300
+
 评价标准
 ````````````````
 1.更新频率及插件更新方法
 2.检查漏洞的质和量
 3.扫描报告的水平,提供简明的纠正方法,比较扫描结果
 
+
+NSFOCUS_RSAS_
+````````````````
+超过10000条漏洞的知识库
+最大并发扫描60个IP
+一分钟内可扫描IP数为5个以上
 
 小结
 ````````````````
