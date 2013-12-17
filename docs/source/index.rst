@@ -17,6 +17,7 @@ cloudsafe is a bug scan platform
    :numbered:
 
    tutorial
+   manual
 
 历史
 ==================

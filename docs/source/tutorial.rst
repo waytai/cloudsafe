@@ -1,4 +1,4 @@
-.. _ret-tutorial:
+.. _ref-tutorial:
 
 .. _Nessus: http://www.tenable.com/products/nessus/
 .. _OpenVAS: http://www.openvas.org/
@@ -8,7 +8,7 @@
 .. _SecVSS_3600: http://www.legendsec.com/newsec.php?up=2&cid=214 
 .. _CloudSafe: https://github.com/wcc526/cloudsafe
 
-.. NOTE:: 下列产品所展示报价,相关信息的为2013.12.1的,仅供参考,最终信息以其官网上的为主
+.. NOTE:: 下列产品所展示2013.12.1的相关信息及报价,仅供参考,最终信息以其官网上的为主
 
 主流漏洞扫描工具横向评测
 ================
@@ -27,7 +27,8 @@ OpenVAS_
 Tianjing_
 ````````````````
   Tianjing_ 6.0 是 北京 `启明星辰 <http://www.venustech.com.cn/>`_ 研发,价格为 `79万 <http://detail.zol.com.cn/144/143969/price.shtml>`_  
-  检查漏洞数量为2500
+  检查漏洞数量为2600,Windows漏洞1200种以上,数据库漏洞300种以上
+  漏洞条目数12000+
 
 TopScanner_
 ```````````````` 
@@ -66,6 +67,22 @@ CloudSafe_
    报表分析:总体上分析网络中的漏洞分布情况，形成风险趋势分析报表，主机间风险对比分析    
    访问日志和错误日志
    部署
+   CVSS分值 优先级别 修补时间
+   0-1      P4        可以自由决定
+   1-4      P3        3-6个月
+   4-7      P2        最多4周
+   7-10     P1        最多2周
+
+   nmap
+   superscan
+   nessus
+   GFI LANguard Network Security Scanner
+   Nikto
+   Wikto
+   Paros
+   Acunetix Web Vulnerability Scanner(commercial)
+   Scuba by Imperva Database Vulnerability Scanner
+   Shadow Database Scanner
 
 
 
@@ -94,6 +111,12 @@ TSC-71528
 最大允许20个扫描任务并发；默认15个
 检测漏洞数：大于6000
 分布式部署中可以向上级服务器上传扫描结果，也可以接收下级上传的扫描结果
+
+评价标准
+````````````````
+1.更新频率及插件更新方法
+2.检查漏洞的质和量
+3.扫描报告的水平,提供简明的纠正方法,比较扫描结果
 
 
 小结
