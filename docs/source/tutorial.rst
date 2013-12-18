@@ -158,7 +158,6 @@ TopScanner_
 
 .. image:: https://github.com/wcc526/csenv/raw/master/docs/img/topscanner/ui.png
 .. image:: https://github.com/wcc526/csenv/raw/master/docs/img/topscanner/report.png
-.. image:: https://github.com/wcc526/csenv/raw/master/docs/img/topscanner/asset.png
 
 
 NSFOCUS_RSAS_
