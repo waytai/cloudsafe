@@ -32,17 +32,17 @@ Sceenshots
 --------
 
 * The basic login ui like:
-.. image:: https://github.com/wcc526/cloudsafe/tree/master/docs/img/screenshots/login.png
+.. image:: https://github.com/wcc526/cloudsafe/master/docs/img/screenshots/login.png
 * The results like:
-.. image:: https://github.com/wcc526/cloudsafe/tree/master/docs/img/screenshots/results.png
+.. image:: https://github.com/wcc526/cloudsafe/master/docs/img/screenshots/results.png
 * The admin like:
-.. image:: https://github.com/wcc526/cloudsafe/tree/master/docs/img/screenshots/admin.png
+.. image:: https://github.com/wcc526/cloudsafe/master/docs/img/screenshots/admin.png
 * The report1 like:
-.. image:: https://github.com/wcc526/cloudsafe/tree/master/docs/img/screenshots/report1.png
+.. image:: https://github.com/wcc526/cloudsafe/master/docs/img/screenshots/report1.png
 * The report2 like:
-.. image:: https://github.com/wcc526/cloudsafe/tree/master/docs/img/screenshots/report2.png
+.. image:: https://github.com/wcc526/cloudsafe/master/docs/img/screenshots/report2.png
 * The scan queue like:
-.. image:: https://github.com/wcc526/cloudsafe/tree/master/docs/img/screenshots/queue.png
+.. image:: https://github.com/wcc526/cloudsafe/master/docs/img/screenshots/queue.png
 
 Demo
 --------
