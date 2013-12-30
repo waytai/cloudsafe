@@ -5,7 +5,6 @@
 .. _Tianjing: http://www.venustech.com.cn/SafeProductInfo/10/32.Html 
 .. _TopScanner: http://www.topsec.com.cn/aqcp/aqgl/ldsmglxttopscanner/index.htm 
 .. _NSFOCUS_RSAS: http://www.nsfocus.com/1_solution/1_2_3.html 
-.. _SecVSS_3600: http://www.legendsec.com/newsec.php?up=2&cid=214 
 .. _CloudSafe: https://github.com/wcc526/cloudsafe
 
 .. NOTE:: 下列产品所展示2013.12.1的相关信息及报价,仅供参考,最终信息以其官网上的为主
@@ -18,7 +17,7 @@
 
 Nessus_
 ````````````````
-  Nessus_ 号称是"世界上最流行的漏洞扫描程序,全世界超过75,000个组织在使用它".尽管这个扫描程序可以免费下载得到,但是要从Tenable Network Security更新到所有最新的威胁信息,每年的直接订购费用是$1,200.Linux, FreeBSD, Solaris, Mac OS X和Windows下都可以使用 Nessus_ .
+  Nessus_ 是世界上最流行的漏洞扫描程序,全世界超过20,000个组织在使用它.每年的使用价格是$1500,虽然可以免费下载试用,但是试用版只能扫描特定的内网网段,而且并行扫描的IP数有限制。
 
 OpenVAS_
 ````````````````
@@ -27,8 +26,7 @@ OpenVAS_
 Tianjing_
 ````````````````
   Tianjing_ 6.0 是 北京 `启明星辰 <http://www.venustech.com.cn/>`_ 研发,价格为 `79万 <http://detail.zol.com.cn/144/143969/price.shtml>`_  
-  检查漏洞数量为2600,Windows漏洞1200种以上,数据库漏洞300种以上
-  漏洞条目数12000+
+  检查漏洞数量为2600,Windows漏洞1200种以上,数据库漏洞300种以上,漏洞条目数12000+
 
 TopScanner_
 ```````````````` 
@@ -42,10 +40,6 @@ NSFOCUS_RSAS_
    国有企业大多数使用的是绿盟设备
    绿盟远程安全评估系统（NSFOCUS Remote Security Assessment简称：NSFOCUS RSAS）是 北京 `绿盟科技 <http://www.nsfocus.com/>`_ 公司研发
    检查漏洞数量为10000
-
-SecVSS_3600_
-````````````````
-   网神SecVSS 3600漏洞扫描系统
 
 CloudSafe_
 ````````````````
