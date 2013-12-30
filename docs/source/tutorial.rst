@@ -7,7 +7,7 @@
 .. _NSFOCUS_RSAS: http://www.nsfocus.com/1_solution/1_2_3.html 
 .. _CloudSafe: https://github.com/wcc526/cloudsafe
 
-.. NOTE:: 下列产品所展示2013.12.1的相关信息及报价,仅供参考,最终信息以其官网上的为主
+.. NOTE:: 下列产品所展示2013.12.1的相关信息及报价,报价来自于其公司销售,仅供参考,最终信息以其官网上的为主
 
 主流漏洞扫描工具横向评测
 ================
@@ -21,25 +21,20 @@ Nessus_
 
 OpenVAS_
 ````````````````
-  OpenVAS_ 是 Nessus_ 的免费开源的分支 ,它是一个包含着相关工具的网络扫描器。其核心部件是一个服务器，包括一套网络漏洞测试程序，可以检测远程系统和应用程序中的安全问题
+  OpenVAS_ 是 Nessus_ 的免费开源的分支 ,它是一个包含着相关工具的网络扫描器。其核心部件是一个服务器，包括一套网络漏洞测试程序，可以检测远程系统和应用程序中的安全问题。
 
 Tianjing_
 ````````````````
-  Tianjing_ 6.0 是 北京 `启明星辰 <http://www.venustech.com.cn/>`_ 研发,价格为 `79万 <http://detail.zol.com.cn/144/143969/price.shtml>`_  
-  检查漏洞数量为2600,Windows漏洞1200种以上,数据库漏洞300种以上,漏洞条目数12000+
+  Tianjing_ 6.0 是 北京 `启明星辰 <http://www.venustech.com.cn/>`_ 研发,价格为 `79万 <http://detail.zol.com.cn/144/143969/price.shtml>`_ ,检查漏洞数量为2600,Windows漏洞1200种以上,数据库漏洞300种以上,漏洞条目数12000+。
 
 TopScanner_
 ```````````````` 
-  TSC-71528 报价为 `15万 <http://210.76.65.159/gdgpes/portal/ebuy_new/goodsQueryForPortal.action?pageNum=9&webInfoId=&goodsClassId=402881e81feace04011ff8a15d1b2962&pageSize=20>`_ ,TSC-71314 报价在10万,销售态度一般 
+  天融信网络卫士脆弱性扫描与管理系统简称TopScanner，是北京 `天融信 <http://www.topsec.com.cn/>`_ 公司研发。其中TSC-71528 报价为 `15万 <http://210.76.65.159/gdgpes/portal/ebuy_new/goodsQueryForPortal.action?pageNum=9&webInfoId=&goodsClassId=402881e81feace04011ff8a15d1b2962&pageSize=20>`_ ,TSC-71314 报价为10万。
 
-  天融信网络卫士脆弱性扫描与管理系统简称TopScanner，是北京 `天融信 <http://www.topsec.com.cn/>`_ 公司研发。
 
 NSFOCUS_RSAS_
 ````````````````
-   RSAS NX3-S 报价在 `15万 <http://www.zycg.gov.cn/td_xxlcpxygh/show_product/2322478>`_ 左右,销售态度好,很热情
-   国有企业大多数使用的是绿盟设备
-   绿盟远程安全评估系统（NSFOCUS Remote Security Assessment简称：NSFOCUS RSAS）是 北京 `绿盟科技 <http://www.nsfocus.com/>`_ 公司研发
-   检查漏洞数量为10000
+   绿盟远程安全评估系统（NSFOCUS Remote Security Assessment简称：NSFOCUS RSAS）是 北京 `绿盟科技 <http://www.nsfocus.com/>`_ 公司研发。其中RSAS NX3-S 报价在 `15万 <http://www.zycg.gov.cn/td_xxlcpxygh/show_product/2322478>`_ 。从政府采购网上看,国有企业大多数使用的是绿盟设备。检查漏洞数量为10000。
 
 CloudSafe_
 ````````````````
